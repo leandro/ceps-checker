@@ -1,0 +1,8 @@
+--- 
+pid: tmp/pids/thin.pid
+log: log/thin.log
+environment: production
+servers: 1
+daemonize: true
+port: 9292
+tag: ceps-checker

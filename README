@@ -1,0 +1,9 @@
+This is a simply Rack based application on top of Hobbit.
+
+It's supposed to import CEPs (brazilian "zip codes") from ceps.txt file (it must contain one CEP per line) to a SQLite database, created on-demand, if non-existent.
+
+This probably isn't useful for no one, but I'm putting it here nonetheless. I'm just helping a couple of friends that had this big raw text file with 5M CEP entries and wanted the piece of their website that is responsible to check if user's inserted CEPs are included in the list they have.
+
+And this app is just a very tiny webservice that gets this big file and index all the CEPs in there into a SQLite database, in order to make the search faster.
+
+For me, this is just a way to work with this set of tools that I'm not used to work with lately. ;)
